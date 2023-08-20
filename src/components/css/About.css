@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Roboto:wght@100;300;500;700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.about {
+    margin-top: 120px;
+}
+
+.pic-right h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.334rem;
+    font-weight: 700;
+    margin-top: 70px;
+    margin-left: 23px;
+}
+
+.pic-right h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.667rem;
+    font-weight: 700;
+    margin-top: -12px;
+    margin-left: -5px;
+}
+.pic-right p {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -20px;
+    margin-left: 25px;
+    line-height: 25px;
+}
+.about-list {
+    display: flex;
+    margin-left: -20px;
+}
+.about-list ul li {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 13px;
+}
+.about-list ul li i {
+
+    padding-right: 10px;
+    font-size: 1.5rem;
+    color: #ef7f12;
+
+}
+
+
+/* container 2 */
+/* row 2 */
+
+.ROW-2 {
+    margin-top: 50px;
+    background-color: #F5F5F5;
+    height: auto;
+    /* width: auto; */
+}
+.ROW-2>h2 {
+    padding-top: 8.125rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.875rem;
+    line-height: 1;
+    font-weight: 700;
+    padding-left: 40px;
+}
+
+.ROW-2>p {
+    color: #767171;
+    padding-left: 40px;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0.875rem;
+}
+
+.company {
+    background-color: white;
+    width: 370px;
+    margin-left: 35px;
+    margin-bottom: 120px;
+}
+
+.company img {
+    display: block;
+    margin-left: 125px;
+    margin-top: 80px;
+}
+.company>h6 {
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.889;
+    margin-left: 120px;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+.company>p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 10px;
+    text-align: center;
+    margin-top: -15px;
+    color: #767171;
+}
+
+
+/* container 3 */
+
+.team>h3 {
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 60px;
+}
+
+.team>p {
+    color: #767171;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -20px;
+}
+
+.card2 {
+    background: white;
+    border: 1px solid #7070702B;
+    box-shadow: 9.899px 9.899px 30px 0 rgb(0 0 0 / 10%);
+    margin-top: 1rem;
+  width: 20rem;
+   height: 30rem 
+}
+.card-title2 {
+    font-size: 30px;
+    font-family: 'Mulish', sans-serif;
+    text-align: center;
+    margin-top: 3rem;
+}
+.card-text2 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    color: #ef7f12;
+    font-weight: 600;
+    margin-top: -3px;
+}
+
+.card2 img {
+    transition: transform 0.6s ease-in-out;
+}
+.card2 img:hover {
+    transform: scale(0.9);
+}
+.card-body2 i {
+    margin-left: 140px;
+    font-size: 1.5rem;
+    background-color: #0077BF;
+    color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    padding: 9px;
+}
+
+
+@media (min-width:320px) and (max-width:425px){
+    .company{
+        width: 270px;
+        margin-left: 25px;
+    }
+    .company img {
+        margin-left: 100px;
+    }
+    
+    .company>h6 {
+        margin-left: 95px;
+        margin-top: 8px;
+    }
+    
+    .company>p {
+    font-size: 13px;
+        text-align: center;
+        margin-top: -15px;
+    }
+    .card2{
+        width: 270px;
+        margin-left: 15px;
+    }
+}
+

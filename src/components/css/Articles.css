@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap');
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap');
+
+
+/* Articles part css */
+.back {
+  background-image: url(' https://www.optimusfox.com/wp-content/uploads/2021/10/Mask-Group-60@2x.png');
+  background-size: cover;
+  background-color: #000000;
+  height: 250px;
+}
+
+.article-card {
+  width: 100rem;
+}
+
+.articles-text h4 {
+  font-weight: 700;
+  color: white;
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+  margin-left: 40px;
+  padding-top: 70px;
+}
+.articles-text {
+  justify-content: space-between;
+}
+
+.read-btn {
+
+  background-color: #ef7f12;
+  border: 1px solid #ef7f12;
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: "Montserrat";
+  font-weight: 600;
+  height: 42px;
+  width: 210px;
+  letter-spacing: 0.2;
+  transition: all 400ms;
+  margin-top: 70px;
+  margin-right: 40px;
+}
+
+.read-btn:hover {
+  transform: scale(1.1);
+}
+
+.main-card {
+  margin-left: 30px;
+}
+
+.article-card {
+  margin-top: 50px;
+  margin-right: 10px;
+}
+
+.article-card .card img {
+  padding: 0.5rem;
+}
+
+.card-title {
+  color: #000;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  transition: all ease 300ms;
+  font-weight: 400;
+}
+
+.card-title:hover {
+  transform: scale(1);
+  color: #ef7f12;
+}
+
+.card img {
+  transition: transform 0.6s ease-in-out;
+}
+
+.card img:hover {
+  transform: scale(0.9);
+}
+
+.a {
+  transition: all 400ms;
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 20px;
+  padding-bottom: 20px;
+}
+
+.a:hover {
+  color: #ef7f12;
+  transform: scale(1);
+}
+
+@media (min-width: 320px) and (max-width: 430px) {
+  .read-btn {
+    display: none;
+  }
+
+  .article-card {
+    width: 100%;
+    margin-left: -13px;
+
+  }
+
+  .article-card .card img {
+    padding: 0;
+  }
+}
+
+@media (min-width:760px) {
+  .article-card {
+    width: 22rem !important;
+  }
+}
+
+@media (min-width:1030px) {
+  .article-card {
+    width: 24rem !important;
+  }
+}

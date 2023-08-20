@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Roboto:wght@100;300;500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+.portfolio{
+  padding-top: 120px;
+}
+ 
+.defi-row h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.defi-row p {
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  color: #767171;
+}
+
+.portfolio-btn {
+  color: white;
+  background-color: #F15A22;
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  border: 1px solid #F15A22;
+  border-radius: 5px;
+  width: 145px;
+  height: 50px;
+  transition: all 400ms;
+  margin-top: 1rem;
+}
+.portfolio-btn:hover {
+  transform: scale(1.1);
+}
+
+.defi,
+.nft,
+.dinisium,
+.data,
+.birb,
+.bit,
+.annex,
+.taswit {
+  margin-top: 30px;
+  line-height: 1.5;
+  letter-spacing: o.5px;
+}
+
+.port{
+  margin-top: 200px;
+}

@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap');
+
+.footer {
+    background-image: url('https://www.optimusfox.com/wp-content/uploads/2021/10/Mask-Group-2@2x.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    height: auto;
+    background-color: black;
+    display: flexbox;
+    color: #FFFFFF;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* column # 1 */
+.col-md-5 {
+    padding-top: 5rem;
+}
+
+.logo {
+    padding: 1rem;
+}
+
+.left-end-p p,
+.footer-p {
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF !important;
+    padding-left: 1rem;
+}
+
+.footer h5 {
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    padding: 1rem;
+}
+
+.social-icons .icon {
+    font-size: 20px;
+    transition: all 400ms;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background-color: transparent;
+    margin-bottom: 15px;
+    display: inline-block;
+    text-align: center;
+}
+
+.social-icons .icon:hover {
+    transform: translateY(-20%);
+    background-color: #ef7f12;
+}
+
+/* footer-col-2 css */
+
+.column_2 {
+    padding-top: 5rem;
+}
+
+.column_2 h5 {
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin-left: -1rem;
+}
+
+.column_2 ul li,
+.column-3 ul li,
+.column-4 ul li {
+    margin-left: -2rem;
+    line-height: 2;
+}
+
+.column_2 ul li i,
+.column-3 ul li i,
+.column-4 ul li i {
+    color: #ef7f12;
+}
+
+.column_2 ul li a,
+.column-3 ul li a,
+.column-4 ul li a {
+    color: #ef7f12;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    transition: all 400ms;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.column_2 ul li:hover,
+.column-3 ul li:hover,
+.column-4 ul li:hover {
+    transform: scale(1);
+    color: #ef7f12;
+}
+
+/*  footer-col-3 css */
+
+.column-3 {
+    padding-top: 5rem;
+}
+
+.column-3 h5 {
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin-left: -15px;
+}
+
+/*footer-col-4 css */
+
+.column-4 {
+    padding-top: 5rem;
+}
+
+h5 {
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+.column-4 ul li {
+    margin-top: 1rem;
+    margin-left: -2rem;
+}
+
+.c-icons {
+    color: #ef7f12;
+}
+
+/* horizontAL LINE CSS  */
+
+.end-p {
+    border-top: 1px solid grey;
+}
+
+.end-p {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.right-end-p span {
+    margin-left: 40px;
+    transition: all 400ms;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 8px;
+}
+
+.right-end-p span:hover {
+    transform: scale(1);
+    color: #ef7f12;
+}
+
+.left-end-p {
+    margin-top: 9px;
+}
+
+.left-end-p p {
+    color: #FFFFFF;
+    font-size: 1rem;
+}

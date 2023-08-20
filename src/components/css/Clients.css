@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap');
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap');
+
+.client {
+    margin-top: 100px;
+    background-color: #F5F5F5;
+    width: 100%;
+    height: 1000px;
+    word-wrap: normal;
+}
+
+.first-cl h4 {
+    padding-top: 90px;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 50px;
+    color: black;
+    word-wrap: normal;
+}
+
+.first-cl p {
+    color: #767171 !important;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 30px;
+    margin-left: 50px;
+    word-wrap: normal;
+}
+
+.crsol h4 {
+    padding-top: 90px;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 50px;
+    color: black;
+    word-wrap: normal;
+}
+
+.crsol p {
+    color: #767171 !important;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 30px;
+    margin-left: 0px;
+    word-wrap: normal;
+}
+
+.crsol {
+    width: 80% !important;
+    margin: 70px;
+}
+
+.whole-card {
+    background-image: url('https://www.optimusfox.com/wp-content/uploads/2021/10/Group-4213@2x.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-position-x: 160px;
+    height: 465px;
+    width: 700px;
+    border: 25px solid #F5F5F5;
+    background-color: black;
+}
+
+.image {
+    width: 480px;
+    padding-left: 20px;
+}
+
+.image img {
+    margin-top: 50px;
+
+}
+
+.description p {
+    color: #E9E9E9 !important;
+    margin-right: 25px;
+    word-wrap: normal;
+}
+
+.name h4 {
+    color: #ef7f12 !important;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-top: -70px;
+    margin-left: 200px;
+    word-wrap: normal;
+}
+
+.bg-img {
+    background-image: url('https://www.optimusfox.com/wp-content/uploads/2021/10/Path-8206@2x.png');
+    position: absolute;
+    top: 100px;
+    height: 800px;
+    width: 100%;
+}
+
+.triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 35px solid #F15A22;
+    margin-top: -24.5px;
+    margin-left: 70px;
+}
+
+.man {
+    margin-top: 20px;
+    margin-left: 25px;
+    background-image: url('https://www.optimusfox.com/wp-content/uploads/2021/10/Path-8206@2x.png');
+}
+
+
+@media (min-width:320px) and (max-width:430px) {
+    .crsol {
+        margin-left: 10px;
+    }
+    .whole-card {
+        height: 660px;
+    }
+    .description p {
+        padding: 10px;
+        width: 191px;
+    }
+    .client {
+        height: 1400px;
+    }
+    .name h4 {
+        margin-left: 2px;
+    }
+}
+
+@media (min-width:765px) and (max-width:900px) {
+    .client {
+        height: 1200px;
+    }
+
+    .crsol {
+        margin-left: 10px;
+    }
+
+    .whole-card {
+        height: 760px;
+    }
+
+    .description p {
+        padding: 10px;
+        width: 163px;
+    }
+
+    .name h4 {
+        margin-left: -5px;
+    }
+}
+
+@media (min-width:1020px) and (max-width:1200px) {
+    .client {
+        height: 1200px;
+    }
+
+    .crsol {
+        margin-left: 10px;
+    }
+
+    .whole-card {
+        height: 600px;
+    }
+
+    .description p {
+        padding: 10px;
+        width: 234px;
+    }
+
+    .name h4 {
+        margin-left: -5px;
+    }
+}

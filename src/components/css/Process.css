@@ -1,0 +1,517 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.process {
+    width: 100%;
+}
+
+*.process h6 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #767171;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.process>h2 {
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin-top: 100px;
+    margin-left: 60px;
+    color: black;
+}
+
+.process p {
+    color: #767171 !important;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+/* .process-1 */
+
+.process-1 {
+    position: relative;
+    margin-left: 100px;
+    margin-top: 70px;
+}
+
+.process-1 h6 {
+    margin-top: -160px;
+    margin-left: 62px;
+}
+
+.process .process-1 h3 {
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    color: #767171;
+    font-weight: 700;
+    margin-top: -130px;
+    margin-left: 60px;
+}
+
+
+/* .process-2 */
+
+
+.process-2 .img {
+    margin-left: 550px;
+    margin-top: -260px;
+}
+
+.process-2 .line-1 {
+    display: block;
+    margin-top: 80px;
+    margin-left: 425px;
+}
+
+.process-2 h6 {
+    width: 130px;
+    margin-top: -190px;
+    margin-left: 583px;
+}
+
+.process .process-2 h3 {
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    color: #767171;
+    font-weight: 700;
+    margin-top: -190px;
+    margin-left: 610px;
+}
+
+/* .process-3 */
+
+
+.process-3 .img2 {
+    margin-left: 960px;
+    margin-top: -270px;
+}
+
+.process-3 .line-2 {
+    display: block;
+    margin-top: -12px;
+    margin-left: 840px;
+}
+
+.process-3 h6 {
+    margin-top: -193px;
+    margin-left: 992px;
+    width: 188px;
+}
+
+.process .process-3 h3 {
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    color: #767171;
+    font-weight: 700;
+    margin-top: -190px;
+    margin-left: 1020px;
+}
+
+/* .process-4 */
+
+.process-4 .img3 {
+    margin-left: 335px;
+    margin-top: -70px;
+}
+
+.line-3 {
+    display: block;
+    margin-top: 100px;
+    margin-left: 210px;
+}
+
+.process-4 h6 {
+    width: 155px;
+    margin-top: 45px;
+    margin-left: 373px;
+}
+
+.process .process-4 h3 {
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    color: #767171;
+    font-weight: 700;
+    margin-top: -130px;
+    margin-left: 390px;
+}
+
+/* .process-5 */
+
+
+.process-5 .img4 {
+    margin-left: 750px;
+    margin-top: -90px;
+}
+
+.line-4 {
+    display: block;
+    margin-top: -255px;
+    margin-left: 650px;
+}
+
+.process-5 h6 {
+    margin-top: 45px;
+    margin-left: 825px;
+}
+
+.process .process-5 h3 {
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    color: #767171;
+    font-weight: 700;
+    margin-top: -130px;
+    margin-left: 805px;
+}
+
+
+
+
+@media (min-width: 280px) and (max-width: 319px) {
+    .process {
+        margin-top: -50px;
+        position: relative;
+    }
+
+    .process>h2 {
+        margin-left: 15px;
+        font-size: 8px;
+    }
+
+    .process>p {
+        margin-left: -1px;
+        width: 100px;
+        font-size: 5px;
+        word-wrap: normal;
+    }
+
+    .process-1 img,
+    .process-2 .img,
+    .process-3 .img2,
+    .process-4 .img3,
+    .process-5 .img4 {
+        height: auto;
+        width: 30px;
+    }
+
+    .process-1 h6,
+    .process-2 h6,
+    .process-3 h6,
+    .process-4 h6,
+    .process-5 h6 {
+        font-size: 5px;
+    }
+
+
+    .process-1 img {
+        position: absolute;
+        top: -60px;
+        left: -87px;
+    }
+
+    .process .process-1 h3 {
+        position: absolute;
+        top: 46px;
+        left: -169px;
+        font-size: 7px;
+    }
+
+    .process-1 h6 {
+        position: absolute;
+        top: 122px;
+        left: -147px;
+    }
+
+    .process-4 .img3 {
+        position: absolute;
+        top: 113px;
+        left: -275px;
+    }
+
+    .process .process-4 h3 {
+        position: absolute;
+        top: 150px;
+        left: -352px;
+        font-size: 7px;
+
+    }
+
+    .process-4 h6 {
+        position: absolute;
+        top: 26px;
+        left: -313px;
+        line-height: inherit;
+    }
+
+    .process-2 .img {
+        position: absolute;
+        left: -536px;
+        top: 364px;
+    }
+
+    .process .process-2 h3 {
+        position: absolute;
+        top: 272px;
+        left: -617px;
+        font-size: 7px;
+
+    }
+
+    .process-2 h6 {
+        position: absolute;
+        top: 319px;
+        left: -569px;
+        line-height: inherit;
+
+    }
+
+    .process-5 .img4 {
+        position: absolute;
+        top: 193px;
+        left: -689px;
+    }
+
+    .process .process-5 h3 {
+        position: absolute;
+        top: 211px;
+        left: -765px;
+        font-size: 7px;
+
+    }
+
+    .process-5 h6 {
+        position: absolute;
+        top: 78px;
+        left: -758px;
+    }
+
+    .process-3 .img2 {
+        position: absolute;
+        top: 425px;
+        left: -946px;
+    }
+
+    .process .process-3 h3 {
+        position: absolute;
+        top: 322px;
+        left: -1027px;
+        font-size: 7px;
+
+    }
+
+    .process-3 h6 {
+        position: absolute;
+        top: 370px;
+        left: -967px;
+    }
+
+    .process-2 .line-1,
+    .process-3 .line-2,
+    .line-3,
+    .line-4 {
+        display: none;
+    }
+}
+
+/* Media Query for 320px Width */
+@media (min-width: 320px) and (max-width:430px) {
+    .process {
+        position: relative;
+    }
+
+    .process>h2 {
+        margin-left: 15px;
+    }
+
+    .process>p {
+        margin-left: 10px;
+        font-size: 14px;
+    }
+
+    .process-1 img,
+    .process-2 .img,
+    .process-3 .img2,
+    .process-4 .img3,
+    .process-5 .img4 {
+        height: auto;
+        width: 145px;
+    }
+
+    .process-1 h6,
+    .process-2 h6,
+    .process-3 h6,
+    .process-4 h6,
+    .process-5 h6 {
+        font-size: 14px;
+    }
+
+    .process-1 img {
+        position: absolute;
+        top: -33px;
+        left: -83px;
+    }
+
+    .process-1 h3 {
+        position: absolute;
+        top: 117px;
+        left: -112px;
+    }
+
+    .process-1 h6 {
+        position: absolute;
+        top: 262px;
+        left: -104px;
+    }
+
+    .process-4 .img3 {
+        position: absolute;
+        top: 192px;
+        left: -175px;
+    }
+
+    .process-4 h3 {
+        position: absolute;
+        top: 274px;
+        left: -206px;
+    }
+
+    .process-4 h6 {
+        position: absolute;
+        top: 217px;
+        left: -184px;
+    }
+
+    .process-2 .img {
+        position: absolute;
+        left: -528px;
+        top: 600px;
+    }
+
+    .process-2 h3 {
+        position: absolute;
+        top: 546px;
+        left: -563px;
+    }
+
+    .process-2 h6 {
+        position: absolute;
+        top: 663px;
+        left: -527px;
+    }
+
+    .process-5 .img4 {
+        position: absolute;
+        top: 430px;
+        left: -584px;
+    }
+
+    .process-5 h3 {
+        position: absolute;
+        top: 484px;
+        left: -618px;
+    }
+
+    .process-5 h6 {
+        position: absolute;
+        top: 431px;
+        left: -610px;
+    }
+
+    .process-3 .img2 {
+        position: absolute;
+        top: 800px;
+        left: -936px;
+    }
+
+    .process-3 h3 {
+        position: absolute;
+        top: 736px;
+        left: -973px;
+    }
+
+    .process-3 h6 {
+        position: absolute;
+        top: 856px;
+        left: -929px;
+
+    }
+
+    .process-2 .line-1,
+    .process-3 .line-2,
+    .line-3,
+    .line-4 {
+        display: none;
+    }
+
+}
+
+@media (min-width:375px) and (max-width:475px) {
+    .process-4 .img3 {
+        position: absolute;
+        top: 191px;
+        left: -117px;
+    }
+
+    .process-4 h3 {
+        position: absolute;
+        top: 268px;
+        left: -150px;
+    }
+
+    .process-4 h6 {
+        position: absolute;
+        top: 209px;
+        left: -123px;
+    }
+
+    .process-5 .img4 {
+        position: absolute;
+        top: 432px;
+        left: -529px;
+    }
+
+    .process-5 h3 {
+        position: absolute;
+        top: 489px;
+        left: -560px;
+    }
+
+    .process-5 h6 {
+        position: absolute;
+        top: 430px;
+        left: -555px;
+    }
+}
+
+@media (min-width:425px) and (max-width:480px) {
+    .process-1 img {
+        position: absolute;
+        top: -10px;
+        left: -83px;
+    }
+
+    .process-1 h3 {
+        position: absolute;
+        top: 135px;
+        left: -120px;
+
+    }
+
+    .process-1 h6 {
+        position: absolute;
+        top: 282px;
+        left: -104px;
+    }
+}

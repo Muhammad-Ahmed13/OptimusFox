@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+/* consultation part css */
+.hero-section {
+  background-image: url('../images/bg-image.png');
+  height: max-content;
+  width: auto;
+  background-color: black;
+  padding-bottom: 90px;
+}
+
+.left-consult {
+  padding-top: 8.2rem;
+  padding-left: 3.2rem;
+}
+
+.left-consult h1 {
+  font-weight: bold;
+  line-height: 1.4;
+  margin-top: 15px;
+  font-family: 'Roboto', sans-serif;
+  color: #FFFFFF;
+}
+
+.left-consult p {
+  color: #FFFFFF !important;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 18px;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.book-btn {
+  background-color: #F14104;
+  border: 1px solid #F14104;
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: "Montserrat";
+  font-weight: 600;
+  height: 42px;
+  width: 243px;
+  margin-top: 20px;
+  letter-spacing: 0.2;
+  transition: all 400ms;
+}
+
+.book-btn:hover {
+  transform: scale(1.1);
+}
+
+/*  Right Side Css  */
+
+.small-move {
+  display: block;
+  margin-top: 204px;
+  margin-left: 11.5rem;
+}
+
+.big {
+  display: block;
+  position: absolute;
+  top: 101px;
+  left: 98px;
+}
+
+.circle-move-imgs {
+  position: relative;
+}
+
+.mobile {
+  z-index: 1;
+  width: 15.5rem;
+  top: 255px;
+  position: absolute;
+  left: 191px;
+}
+
+/*  Right Side Css  End*/
+/* add to animation */
+
+.dot-one {
+  position: absolute;
+  top: 187px;
+  left: 163px;
+}
+.dot-two {
+  position: absolute;
+  top: 273px;
+  left: 283px;
+  z-index: 1;
+}
+.bottom-one {
+  position: absolute;
+  left: 200px;
+  bottom: 41px;
+}
+.bottom-two {
+  position: absolute;
+  left: 300px;
+  bottom: 40px;
+}
+.bottom-three {
+  position: absolute;
+  left: 405px;
+  bottom: 115px;
+}
+.top-one {
+  z-index: 1;
+  position: absolute;
+  left: 198px;
+  bottom: 68px;
+}
+.top-two {
+  z-index: 1;
+  position: absolute;
+  left: 297px;
+  bottom: 62px;
+}
+.top-three {
+  z-index: 1;
+  position: absolute;
+  left: 404px;
+  bottom: 127px;
+}
+/* media queries */
+@media (min-width:280px) and (max-width:320px) {
+  .book-btn{
+    display: none;
+  }
+  .circle-move-imgs {
+    margin-top: -50px;
+  }
+  .small-move {
+    margin-top: 154px;
+    margin-left: 30px;
+  }
+  .big {
+    top: 121px;
+    left: 1px;
+    width: 270px;
+  }
+  .mobile {
+    width: 12.5rem;
+    top: 202px;
+    left: 61px;
+  }
+  .dot-one {
+    top: 184px;
+    left: 80px;
+  }
+  .dot-two {
+    top: 186px;
+    left: 170px;
+  }
+  .bottom-one {
+    left: 30px;
+    bottom: 1px;
+  }
+  .bottom-two {
+    left: 155px;
+    bottom: -20px;
+  }
+  .bottom-three {
+    left: 200px;
+    bottom: 14px;
+  }
+  .top-one {
+    left: 30px;
+    bottom: 20px;
+  }
+  .top-two {
+    left: 155px;
+    bottom: 2px;
+  }
+  .top-three {
+    left: 200px;
+    bottom: 50px;
+  }
+}
+@media (min-width:320px) and (max-width:768px){
+  .circle-move-imgs {
+    margin-top: -50px;
+  }
+  .left-consult{
+    margin-left: -25px;
+    text-align: center;
+  }
+  .small-move {
+    margin-top: 154px;
+    margin-left: 10px;
+  }
+  .big {
+    top: 121px;
+    left: 20px;
+    width: 250px;
+  }
+  .mobile {
+    width: 12.5rem;
+    top: 202px;
+    left: 81px;
+  }
+  .dot-one {
+    top: 184px;
+    left: 80px;
+  }
+  .dot-two {
+    top: 186px;
+    left: 170px;
+  }
+  .bottom-one {
+    left: 30px;
+    bottom: 1px;
+  }
+  .bottom-two {
+    left: 155px;
+    bottom: -20px;
+  }
+  .bottom-three {
+    left: 245px;
+    bottom: 14px;
+  }
+  .top-one {
+    left: 30px;
+    bottom: 20px;
+  }
+  .top-two {
+    left: 155px;
+    bottom: 2px;
+  }
+  .top-three {
+    left: 245px;
+    bottom: 50px;
+  }
+}
+
+@media (min-width:768px) and (max-width:1024px)  {
+
+  .left-consult {
+    margin-left: -30px;
+    margin-top: 100px;
+  }
+  .small-move {
+    margin-top: 300px;
+    margin-left: 3rem;
+  }
+  .big {
+    top: 291px;
+    left: 30px;
+    width: 290px;
+  }
+  .mobile {
+    width: 220px;
+    top: 350px;
+    left: 80px;
+  }
+  .dot-one {
+    top: 340px;
+    left: 50px;
+  }
+  .dot-two {
+    top: 320px;
+    left: 150px;
+  }
+  .bottom-one {
+    left: 30px;
+    bottom: 260px;
+  }
+  .bottom-two {
+    left: 155px;
+    bottom: 260px;
+  }
+  .bottom-three {
+    left: 245px;
+    bottom: 280px;
+  }
+  .top-one {
+    left: 30px;
+    bottom: 280px;
+  }
+  .top-two {
+    left: 155px;
+    bottom: 280px;
+  }
+  .top-three {
+    left: 245px;
+    bottom:300px;
+  }
+}
+
+
+/* for dot one    2sec */
+img.vert-move {
+  -webkit-animation: mover 3s infinite alternate-reverse;
+  animation: mover 3s infinite alternate-reverse;
+}
+img.vert-move {
+  -webkit-animation: mover 3s infinite alternate-reverse;
+  animation: mover 3s infinite alternate-reverse;
+}
+
+@-webkit-keyframes mover {
+  0% {
+    transform: translateY(0px);
+  }
+
+  100% {
+    transform: translateY(-90px);
+  }
+}
+
+@keyframes mover {
+  0% {
+    transform: translateY(20px);
+  }
+
+  100% {
+    transform: translateY(-50px);
+  }
+}
+
+/* for dot two */
+img.vert-move-2 {
+  -webkit-animation: mover-2 3s infinite alternate;
+  animation: mover-2 3s infinite alternate;
+}
+
+img.vert-move-2 {
+  -webkit-animation: mover-2 3s infinite alternate;
+  animation: mover-2 3s infinite alternate;
+}
+
+@-webkit-keyframes mover-2 {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-50px);
+  }
+}
+
+@keyframes mover-2 {
+  0% {
+    transform: translateY(23px);
+  }
+
+  100% {
+    transform: translateY(-50px);
+  }
+}
+
+
+/* animation*/
+
+.clockwiseSpin {
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-name: clockwiseSpin;
+  animation-timing-function: linear;
+}
+
+@keyframes clockwiseSpin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.antiClockwiseSpin {
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-name: antiClockwiseSpin;
+  animation-timing-function: linear;
+}
+
+@keyframes antiClockwiseSpin {
+  from {
+    transform: rotate(360deg);
+  }
+
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+
+

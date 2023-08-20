@@ -1,0 +1,172 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* choose part css */
+
+.choose {
+  padding-top: 10rem;
+}
+
+.choose-left {
+  position: relative;
+}
+
+.large-wheel {
+  position: absolute;
+  top: 66px;
+  left: 186px;
+  z-index: -1;
+}
+
+.medium-wheel {
+  position: absolute;
+  top: 20px;
+  left: 180px;
+}
+
+.small-wheel {
+  position: absolute;
+  top: 35px;
+  left: 227px;
+  z-index: -1;
+}
+
+.fix-image{
+  width: 530px;
+}
+
+.choose-right h4 {
+  padding: 1rem;
+  margin-left: 0px;
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+word-wrap: normal;
+}
+
+.choose-right p {
+  margin-top: -10px;
+  padding: 1rem;
+  font-size: 16px;
+  color: #767171 !important;
+  font-family: 'Montserrat', sans-serif;
+word-wrap: normal;
+}
+
+/* animation for wheels */
+.clockwiseSpin-wheel {
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-name: clockwiseSpin;
+  animation-timing-function: linear;
+}
+
+
+@keyframes clockwiseSpin-wheel {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.antiClockwiseSpin-wheel {
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-name: antiClockwiseSpin;
+  animation-timing-function: linear;
+}
+
+@keyframes antiClockwiseSpin-wheel {
+  from {
+    transform: rotate(360deg);
+  }
+
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+
+/* Media Query for choose  320px Width */
+@media (max-width: 320px) and (max-width: 375px) {
+
+  .fix-image {
+    margin-top: -100px;
+    width: 240px;
+  }
+
+  .large-wheel {
+    position: absolute;
+    top: -70px;
+    left: 110px;
+    z-index: -1;
+    width: 33px;
+  }
+
+  .medium-wheel {
+    position: absolute;
+    top: -120px;
+    left: 143px;
+    z-index: -1;
+    size: 45px;
+  }
+
+  .small-wheel {
+    position: absolute;
+    top: -112px;
+    left: 100px;
+    z-index: -1;
+    width: 40px;
+  }
+}
+
+@media (min-width:375px) and ( max-width: 760px){
+
+  .fix-image {
+    margin-top: -100px;
+    width: 320px;
+  }
+  .large-wheel {
+    position: absolute;
+    top: -70px;
+    left: 110px;
+    z-index: -1;
+    width: 33px;
+  }
+
+  .medium-wheel {
+    position: absolute;
+    top: -120px;
+    left: 143px;
+    z-index: -1;
+    size: 45px;
+  }
+
+  .small-wheel {
+    position: absolute;
+    top: -112px;
+    left: 100px;
+    z-index: -1;
+    width: 40px;
+  }
+
+}
+
+@media (min-width:1024px){
+
+}
+

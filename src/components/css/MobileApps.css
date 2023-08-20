@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+/* mobile apps part css */
+
+.mob-div {
+  margin-top: 100px;
+}
+
+.upper-mobile,
+.lower-mobile {
+  display: flex;
+}
+
+.upper-mobile p,
+.lower-mobile p {
+  color: #767171 !important;
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.upper-mobile img,
+.lower-mobile img {
+  margin-right: 5rem;
+  margin-top: 2rem;
+}
+
+.mob-left img {
+  margin-top: 100px;
+  margin-left: -15px;
+}
+
+.mob-right>h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px !important;
+  font-weight: 700;
+}
+
+.mob-right>p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: #767171;
+  margin-top: 20px;
+}
+
+.mob-right img {
+  transition: all 400ms;
+  filter: grayscale(0%);
+}
+
+.mob-right img:hover {
+  transform: scale(1.3);
+  filter: grayscale(90%);
+}
+/* Media Query for 320px to 430px */
+@media (min-width: 320px) and (max-width: 430px) {
+  .upper-mobile img,
+  .lower-mobile img {
+    margin: 1rem ; 
+  width: 60px; 
+  }
+  .upper-mobile p,
+  .lower-mobile p {
+  font-size: 12px;
+  }
+
+  .mob-right > h3 {
+    margin-top: 15px;
+    font-size: 18px !important; 
+  }
+
+  .mob-right > p {
+    font-size: 12px; 
+  }
+  .mob-left{
+    margin-top: -80px;
+    width: 200px;
+    margin-left: 60px;
+  }
+}
+
+@media (min-width:765px){
+ .mob-right{
+  margin-left: 120px;
+ }
+ .mob-left{
+
+  width: 200px;
+  margin-left: 10px;
+}
+.upper-mobile img,
+  .lower-mobile img {
+    margin: 1rem ; 
+  width: 60px; 
+
+  }
+}
+
+@media (min-width:1030px){
+  .upper-mobile p,
+  .lower-mobile p {
+    font-size: 1rem;
+  margin-left: 38px;
+  }
+  
+   .upper-mobile img,
+  .lower-mobile img {
+    margin-right: 4rem;
+    margin-top: 2rem;
+  }
+  
+  .mob-right>h3 {
+    font-size: 25px !important;
+    margin-left: -32px;
+  }
+  
+  .mob-right>p {
+    font-size: 16px;
+    margin-left: 0px;
+    margin-top: -20px;
+  }
+  .mob-left{
+
+    width: 400px;
+    margin-left: 10px;
+  }
+.upper-mobile img,
+  .lower-mobile img {
+    
+  width: 85px; 
+  
+  }
+}

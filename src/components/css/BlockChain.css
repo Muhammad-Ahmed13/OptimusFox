@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+/* blockchain part css  */
+.class {
+  background-image: url('https://www.optimusfox.com/wp-content/uploads/2021/10/Dark.png');
+  background-color: #1A181B;
+  color: white !important;
+  height: max-content;
+  margin-top: 2rem;
+  padding-bottom: 70px;
+}
+
+.class h2 {
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  padding: 3rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  margin-top: 20px;
+}
+
+.content p {
+  margin-top:10px;
+  color: white !important;
+  margin-left: 3px;
+}
+
+.on-shore,
+.off-shore,
+.hybrid {
+  display: inline-flex;
+}
+
+.on-shore {
+  margin-top: -100px;
+}
+
+.on-shore img {
+  margin-left: 40px;
+  margin-top: 150px;
+
+}
+
+.on-shore .content {
+  margin-top: 160px;
+  margin-left: 15px;
+}
+
+.off-shore img {
+  margin-left: 40px;
+  margin-top: 80px;
+}
+
+.off-shore .content {
+  margin-top: 65px;
+  margin-left: 15px;
+}
+
+.hybrid img {
+  margin-left: 40px;
+  margin-top: 60px;
+
+}
+
+.hybrid .content {
+  margin-left: 15px;
+  margin-top: 40px;
+}
+
+.block_btn {
+  margin-top: 60px;
+  padding-left: 160px;
+}
+
+.block_btn button {
+  border: 1px solid #ef7f12;
+  background-color: #1A181B;
+  color: white;
+  border-radius: 5px;
+  width: 160px;
+  height: 45px;
+  transition: all 400ms;
+}
+
+.block_btn button:hover {
+  transform: scale(1.1);
+  background-color: #ef7f12;
+}
+
+.container-box {
+  position: relative;
+}
+
+.small-box {
+  position: absolute;
+  left: -150px;
+  top: 170px;
+  z-index: 2;
+}
+
+.back-box {
+  position: absolute;
+  left: 30px;
+  top: 150px;
+  z-index: 1;
+}
+
+/* animation small box*/
+img.vert-move-box {
+  -webkit-animation: mover-box 4s infinite alternate;
+  animation: mover 4s infinite alternate;
+}
+
+img.vert-move-box {
+  -webkit-animation: mover-box 4s infinite alternate;
+  animation: mover 4s infinite alternate;
+}
+
+@-webkit-keyframes mover-box {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes mover-box {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+/* Media Query for 320px to 425px */
+@media (min-width: 320px) and (max-width: 430px) {
+  .class {
+    height: 1500px;
+  }
+
+  .class h2 {
+    font-size: 30px;
+    margin-left: -10px;
+  }
+
+  .on-shore,
+  .off-shore,
+  .hybrid {
+    margin-top: 10px;
+    display: block;
+  }
+
+  .on-shore img,
+  .off-shore img,
+  .hybrid img {
+    margin-top: 10px;
+    margin-left: 100px;
+    width: 80px;
+    height: auto;
+  }
+
+  .on-shore p,
+  .off-shore p,
+  .hybrid p {
+    margin-top: 10px;
+    margin-left: -11px;
+    text-align: center;
+
+  }
+
+
+  .on-shore h5 {
+    text-align: center;
+    margin-top: -100px;
+    margin-left: -31px;
+  }
+
+  .hybrid h5 {
+    text-align: center;
+  }
+
+  .class h2 {
+    padding: 1rem;
+    font-size: 24px;
+  }
+
+  .block_btn {
+    padding-left: 60px;
+  }
+
+  .back-box {
+    margin-top: -271px;
+    margin-right: 10px;
+    width: 200px;
+  }
+
+  .small-box {
+    margin-top: -260px;
+    margin-left: 105px;
+    width: 195px;
+  }
+}
+
+@media (min-width:420px) and (max-width:768px) {
+  .back-box {
+    display: none;
+  }
+
+  .small-box {
+    display: none;
+  }
+}
+
+@media (min-width:1440px) {
+  .back-box {
+    width: 450px;
+    margin-top: -50px;
+    margin-left: 50px;
+  }
+
+  .small-box {
+    margin-top: -20px;
+    margin-left: 100px;
+    width: 400px;
+  }
+}
